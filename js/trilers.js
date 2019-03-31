@@ -3,29 +3,7 @@ window.addEventListener("load", function(){
   game.initialize();
 
 });
-function Game() {
-  //variables
-  var haynombre=false,
-      esletra=false,
-      noletra=false,
-      nomUser,
-      nivelldificltat,
-      iniciarsi=false,
-      numAnterior=-1,
-      aleatorio=-1,
-      numGots=0,
-      numDeClics=0,
-      clic=false,
-      diners=0,
-      dinGanados=0;
-this.initialize=function () {
-  mostrarInfo();
-  if(haynombre){
-    dificultat();
-    if (iniciarsi) {
-      iniciaJoc();
-      if(clic) {
-        reiniciar();
+fu
       }
       //aleatori();
     }
@@ -41,27 +19,7 @@ function mostrarInfo() {
    nomUser = prompt("Nombre: (Solo letras) ");
   var letras="abcdefghijklmnñopqrstuvwxyzç";
   if(nomUser!=null){
-    for (var i = 0; i < letras.length; i++) {
-        if (letras.indexOf(nomUser.charAt(i).toLowerCase(),0)!=-1){
-          esletra=true;
-        }else{
-          noletra=true;
-        }
-    }
-    if(esletra && !noletra){
-      haynombre=true;
-      console.log("a");
-    }else if(!esletra && noletra){
-      haynombre=false;
-      nomUser=null;
-      console.log("b");
-    }else if(esletra && noletra){
-      haynombre=false;
-      //nomUser=null;
-      console.log("c");
-    }
-
-  }
+    for
 }
 //mostra missatge para iniciar el juego
 function errores() {
