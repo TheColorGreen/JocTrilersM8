@@ -3,6 +3,7 @@ window.addEventListener("load", function(){
   game.initialize();
 
 });
+<<<<<<< Updated upstream
 
 this.initialize=function () {
   mostrarInfo();
@@ -60,6 +61,9 @@ function dificultat() {
    //si es diferent de null, osigui que cancela directament
    if(nivelldificltat!=null){
      //si la llargada de la variable es igual a 1, voldi que so pot escriu un numero
+=======
+rgada de la variable es igual a 1, voldi que so pot escriu un numero
+>>>>>>> Stashed changes
      if (nivelldificltat.length==1) {
        //Si el numero es 0, 1, o 2, llavor podrà accedir al joc
        if((nivelldificltat == 0 || nivelldificltat == 1 )|| nivelldificltat == 2 ){
