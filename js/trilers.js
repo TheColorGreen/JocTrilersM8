@@ -3,21 +3,7 @@ window.addEventListener("load", function(){
   game.initialize();
 
 });
-function Game() {
-  //variables
-  var haynombre=false,
-      esletra=false,
-      noletra=false,
-      nomUser,
-      nivelldificltat,
-      iniciarsi=false,
-      numAnterior=-1,
-      aleatorio=-1,
-      numGots=0,
-      numDeClics=0,
-      clic=false,
-      diners=0,
-      dinGanados=0;
+
 this.initialize=function () {
   mostrarInfo();
   if(haynombre){
